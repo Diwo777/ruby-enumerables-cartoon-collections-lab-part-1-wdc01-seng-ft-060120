@@ -9,8 +9,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
- array.each_with_index {|element, index|
-   array[element] = index
+ array.each_with_index {|element, index + 1|
  }
   
 end
